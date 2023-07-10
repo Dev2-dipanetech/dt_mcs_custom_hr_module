@@ -1,7 +1,7 @@
 from . import __version__ as app_version
 
 app_name = "dt_mcs_custom_hr_module"
-app_title = "Dt Mcs Custom Hr Module"
+app_title = "DT-MCS-Custom HR"
 app_publisher = "Dipane Technologies"
 app_description = "Custom scripts and doctypes for HR Module"
 app_email = "dev2@dipanetech.com"
@@ -199,3 +199,7 @@ app_license = "MIT"
 # auth_hooks = [
 #	"dt_mcs_custom_hr_module.auth.validate"
 # ]
+
+fixtures = [
+    "Custom Field"
+]
