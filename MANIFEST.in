@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include dt_mcs_custom_hr_module *.css
+recursive-include dt_mcs_custom_hr_module *.csv
+recursive-include dt_mcs_custom_hr_module *.html
+recursive-include dt_mcs_custom_hr_module *.ico
+recursive-include dt_mcs_custom_hr_module *.js
+recursive-include dt_mcs_custom_hr_module *.json
+recursive-include dt_mcs_custom_hr_module *.md
+recursive-include dt_mcs_custom_hr_module *.png
+recursive-include dt_mcs_custom_hr_module *.py
+recursive-include dt_mcs_custom_hr_module *.svg
+recursive-include dt_mcs_custom_hr_module *.txt
+recursive-exclude dt_mcs_custom_hr_module *.pyc

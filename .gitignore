@@ -1,0 +1,7 @@
+.DS_Store
+*.pyc
+*.egg-info
+*.swp
+tags
+dt_mcs_custom_hr_module/docs/current
+node_modules/
